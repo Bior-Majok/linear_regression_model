@@ -39,11 +39,9 @@ class PredictionScreen extends StatefulWidget {
 }
 
 class _PredictionScreenState extends State<PredictionScreen> {
-  // API Endpoint configuration: auto-detects Web (127.0.0.1) vs Android emulator (10.0.2.2)
+  // API Endpoint configuration: defaults to live Render API
   final TextEditingController _apiUrlController = TextEditingController(
-    text: kIsWeb
-        ? 'http://127.0.0.1:8000/predict'
-        : 'http://10.0.2.2:8000/predict',
+    text: 'https://linear-regression-model-p51l.onrender.com/predict',
   );
 
   // Controllers for all 11 model features
@@ -315,7 +313,7 @@ class _PredictionScreenState extends State<PredictionScreen> {
                             onPressed: () {
                               setState(() {
                                 _apiUrlController.text =
-                                    'https://linear-regression-model-api.onrender.com/predict';
+                                    'https://linear-regression-model-p51l.onrender.com/predict';
                               });
                             },
                           ),

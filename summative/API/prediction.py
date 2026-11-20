@@ -99,6 +99,7 @@ app.state.model = load_saved_model()
 # I also restrict methods to GET, POST, and OPTIONS, and allow standard headers and credentials.
 # Mobile apps (Flutter on emulator/phone) are native clients and ignore CORS, so this only restricts browser traffic.
 allowed_origins = [
+    "https://linear-regression-model-p51l.onrender.com",
     "https://linear-regression-model-api.onrender.com",
     "http://localhost",
     "http://localhost:8000",
