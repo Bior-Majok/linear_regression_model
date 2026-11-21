@@ -28,7 +28,7 @@ The model is trained on a rich panel dataset of African nations sourced from Men
 *(Note: Hosted on Render's free tier. If the service is idling, the first request may take 30 to 60 seconds to spin up).*
 
 ## 4. Video Demonstration Link
-* **YouTube Demo (Task 4):** [https://youtu.be/YOUR_VIDEO_ID_HERE](https://youtu.be/YOUR_VIDEO_ID_HERE)
+* **YouTube Demo (Task 4):** [https://youtu.be/OCUFnqPzLuI](https://youtu.be/OCUFnqPzLuI)
 
 *(Demo includes: mobile app on Android emulator, code walkthrough of API integration, Swagger UI validation and retraining tests, notebook model evaluation and loss curves, and answers to the four required technical questions).*
 
